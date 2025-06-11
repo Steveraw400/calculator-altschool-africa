@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="Calculator">
+  <!-- Add this inside your <body>, after #Calculator -->
+<div id="history">
+  <h2 class="h2">History</h2>
+  <ul id="history-list"></ul>
+</div>
+    <div class="display-container">
+    <input  id="display" readonly>
+    </div>
+  <div id="keys">
+      <button onclick="appendtoDisplay(1)">1</button>
+      <button onclick="appendtoDisplay(2)">2</button>
+      <button onclick="appendtoDisplay(3)">3</button>
+      <button onclick="appendtoDisplay('*')" class="operator-btn">x</button>
+      <button onclick="appendtoDisplay('/')" class="operator-btn">÷</button>   
+      <button onclick="appendtoDisplay(4)">4</button>
+      <button onclick="appendtoDisplay(5)">5</button>
+      <button onclick="appendtoDisplay(6)">6</button>
+      <button onclick="appendtoDisplay('+')"class="operator-btn">+</button>
+      <button onclick="appendtoDisplay('-')"class="operator-btn">-</button> 
+      <button onclick="appendtoDisplay(7)">7</button> 
+      <button onclick="appendtoDisplay(8)">8</button>
+      <button onclick="appendtoDisplay(9)">9</button>
+      <button onclick="calculatepercentage('%')"class="operator-btn">%</button>
+      <button onclick="calculatePower('^')"class="operator-btn">^</button>
+      <button onclick="appendtoDisplay('.')">.</button>
+      <button onclick="appendtoDisplay(0)">0</button>
+      <button onclick="clearDisplay()"class="operator-btn">C</button>
+      <button onclick="backspace()"class="operator-btn">&#8592;</button>
+      <button onclick="calculateResult()" class="operator-btn equals-btn">=</button> 
+      
+      
+  </div>
+</body>
+</html>
