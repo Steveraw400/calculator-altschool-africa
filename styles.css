@@ -112,7 +112,7 @@ button:active{
 button { width: 79px; height: 52px; }
 
 /* Mobile styles */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   #Calculator { max-width: 98vw; }
   button { width: 45px; height: 45px; font-size: 1rem; }
 }
