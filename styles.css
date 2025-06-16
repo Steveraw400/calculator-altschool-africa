@@ -115,7 +115,6 @@ button { width: 79px; height: 52px; }
 @media (max-width: 600px) {
   #Calculator { max-width: 98vw; }
   button { width: 45px; height: 45px; font-size: 1rem; }
-  #keys { grid-template-columns: repeat(4, 1fr); }
 }
 @media (max-width: 400px) {
   button { width: 35px; height: 35px; font-size: 0.8rem; }
